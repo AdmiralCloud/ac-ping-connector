@@ -1,0 +1,6 @@
+.vscode
+node_modules
+debug.js
+.nyc_output/**
+**/.idea/**
+yarn-error.log
