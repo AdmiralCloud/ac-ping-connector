@@ -1,3 +1,12 @@
+<a name="0.0.3"></a>
+
+## [0.0.3](https://github.com/admiralcloud/ac-ping-connector/compare/v0.0.2..v0.0.3) (2021-05-01 14:53:55)
+
+
+### Bug Fix
+
+* **App:** Function now returns IP and port | MP | [54d111eeb25834fc30959dde51e00c6079ac1570](https://github.com/admiralcloud/ac-ping-connector/commit/54d111eeb25834fc30959dde51e00c6079ac1570)    
+Function now returns IP and port which is used for the HTTP server.
 <a name="0.0.2"></a>
 
 ## [0.0.2](https://github.com/admiralcloud/ac-ping-connector/compare/v0.0.1..v0.0.2) (2021-05-01 14:48:46)
