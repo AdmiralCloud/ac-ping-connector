@@ -22,7 +22,9 @@ describe('Run test', () => {
 
 
   it('Init Connector on default port', (done) => {
-    acpc({ ip: '127.0.0.1' })
+    let init = acpc({ ip: '127.0.0.1' })
+    expect(init.ip).to.eql('127.0.0.1')
+    expect(init.port).to.eql(40000)
     return done()
   })
 
@@ -38,7 +40,10 @@ describe('Run test', () => {
     let eth = ifaces['en0'] || ifaces['eth0']
     ip = _.find(eth, { family: 'IPv4' }) && _.find(eth, { family: 'IPv4' }).address  
 
-    acpc({ port })
+    let init = acpc({ port })
+
+    expect(init.ip).to.eql(ip)
+    expect(init.port).to.eql(port)
     return done()
   })
 

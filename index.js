@@ -20,6 +20,7 @@ const pingConnector = (params) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' })
     res.end('I am alive\n')
   }).listen(port, ip)
+  return { ip, port }
 }
 
 module.exports = pingConnector
