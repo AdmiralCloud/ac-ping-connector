@@ -6,17 +6,16 @@
   "main": "index.js",
   "author": "Mark Poepping <mark.poepping@admiralcloud.com>",
   "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "ac-semantic-release": "^0.2.5",
-    "chai": "^4.3.4",
-    "eslint": "7.25.0",
-    "mocha": "^8.3.2",
-    "nyc": "^15.1.0"
+    "ac-semantic-release": "^0.4.2",
+    "c8": "8.0.0",
+    "chai": "^4.3.7",
+    "eslint": "8.45.0",
+    "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "nyc ./node_modules/.bin/mocha --bail --exit --slow 1000 ./test.js || :"
+    "test": "mocha --reporter spec --bail --exit --slow 1000 ./test.js || :",
+    "coverage": "./node_modules/c8/bin/c8.js yarn test"
   }
 }
