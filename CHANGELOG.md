@@ -1,3 +1,28 @@
+<a name="1.0.0"></a>
+ 
+# [1.0.0](https://github.com/admiralcloud/ac-ping-connector/compare/v0.0.3..v1.0.0) (2023-07-16 07:03:44)
+
+
+### Feature
+
+* **App:** Improved handling if port is in use | MP | [4c6c8ba64f3b71468ef2533a87facf6f78f5760c](https://github.com/admiralcloud/ac-ping-connector/commit/4c6c8ba64f3b71468ef2533a87facf6f78f5760c)    
+Instead of crashing the package now handles errors  
+Related issues: [/issues#undefined](https://github.com//issues/undefined)
+### Documentation
+
+* **App:** Updated README | MP | [e681d73aadbdfaea0aca990c5de85af080febfe7](https://github.com/admiralcloud/ac-ping-connector/commit/e681d73aadbdfaea0aca990c5de85af080febfe7)    
+Function uses async/await for init  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+### Chores
+
+* **App:** Updated packages | MP | [e19add21ca9281e3f8d454d65183e4e0c2f3e61d](https://github.com/admiralcloud/ac-ping-connector/commit/e19add21ca9281e3f8d454d65183e4e0c2f3e61d)    
+Updated packages  
+Related issues: [/issues#undefined](https://github.com//issues/undefined)
+### Chores
+
+* **App:** Fixed README | MP | [fa1eece136ca5394ad55935a59bcf3585587efc2](https://github.com/admiralcloud/ac-ping-connector/commit/fa1eece136ca5394ad55935a59bcf3585587efc2)    
+README now shows info for this package.  
+Related issues: [undefined/undefined#master](undefined/browse/master)
 <a name="0.0.3"></a>
 
 ## [0.0.3](https://github.com/admiralcloud/ac-ping-connector/compare/v0.0.2..v0.0.3) (2021-05-01 14:53:55)
