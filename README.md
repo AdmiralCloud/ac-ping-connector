@@ -4,32 +4,22 @@ The ac-ping-connector launches a simple HTTP server on a given port so uptime se
 
 # Installation
 ```
-  yarn add ac-osticket
-  npm install ac-osticket --save
+  yarn add ac-ping-connector
 ```
 
 # Usage
-Create API Key in OSTicket and instanciate OSTicket with your OSTicket URL and those API keys.
+``````
+const acpc = require('./index')
+const con = acpc()
+// con -> { port: 40000 }
+``````
+You can now send requests against the IP and port to check if the service is alive.
 
-## Init
-```
-const ost = require('osticket')
-ost.init({
-  baseUrl: 'https://myOSTicketURL',
-  apiKey: 'abc-123', 
-  apiSecret: 'abc-secret' // optional if you have tweaked OSTicket
-})
-
-// see below for payload
-let response = await ost.createTicket(ticket)
-{ ticketId: 123456 }
-```
 
 # License & Contributing
 
 ## Links
 - [Website](https://www.admiralcloud.com/)
-- [Twitter (@admiralcloud)](https://twitter.com/admiralcloud)
 - [Facebook](https://www.facebook.com/MediaAssetManagement/)
 
 ## License

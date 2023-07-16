@@ -5,3 +5,5 @@ debug.js
 **/.idea/**
 yarn-error.log
 .npmrc
+demo.js
+coverage**
