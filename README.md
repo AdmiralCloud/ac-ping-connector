@@ -1,6 +1,10 @@
 # AdmiralCloud Ping Connector
 The ac-ping-connector launches a simple HTTP server on a given port so uptime services can ping your service.
 
+# Breaking change version 1
+The function still behaves the same way in terms of functionality: it starts a server and logs an error if one occurs. 
+
+The difference is that it now allows for better error handling and can be used with async/await syntax, which can make your code more readable and easier to reason about. 
 
 # Installation
 ```
@@ -10,9 +14,15 @@ The ac-ping-connector launches a simple HTTP server on a given port so uptime se
 # Usage
 ``````
 const acpc = require('./index')
-const con = acpc()
-// con -> { port: 40000 }
+try {
+  const con = await acpc()
+  // con -> { port: 40000 }
+}
+catch(e) {
+  // handle error
+}
 ``````
+
 You can now send requests against the IP and port to check if the service is alive.
 
 
