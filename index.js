@@ -16,10 +16,10 @@ const pingConnector = async ({ enabled = true, port = 40000 } = {}) => {
   } 
   catch (error) {
     if (error.code === 'EADDRINUSE') {
-      console.log('PING CONNECTOR | ERROR | Port %s | Port in use', port)
+      console.error('PING CONNECTOR | ERROR | Port %s | Port in use', port)
     } 
     else {
-      console.log('PING CONNECTOR | ERROR | %j ', error)
+      console.error('PING CONNECTOR | ERROR | %j ', error)
     }
     throw error // re-throw the error to handle it in the calling code
   }
