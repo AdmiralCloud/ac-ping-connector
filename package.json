@@ -1,7 +1,7 @@
 {
   "name": "ac-ping-connector",
   "description": "Launches a HTTP server on a port that can be pinged by a uptime service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/admiralcloud/ac-ping-connector",
   "main": "index.js",
   "author": "Mark Poepping <mark.poepping@admiralcloud.com>",
