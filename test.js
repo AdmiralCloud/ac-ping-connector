@@ -41,15 +41,15 @@ describe('Run test', () => {
 
 describe('Check errors', () => {
   let consoleOutput = []
-  const originalLog = console.log
+  const originalLog = console.error
 
   beforeEach(() => {
     consoleOutput.length = 0
-    console.log = (...output) => consoleOutput.push(...output)
+    console.error = (...output) => consoleOutput.push(...output)
   })
 
   afterEach(() => {
-    console.log = originalLog
+    console.error = originalLog
   })
 
   it('Check invalid port', async () => {
