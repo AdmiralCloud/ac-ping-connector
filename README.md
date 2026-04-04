@@ -1,6 +1,8 @@
 # AdmiralCloud Ping Connector
 The ac-ping-connector launches a simple HTTP server on a given port so uptime services can ping your service.
 
+[![Node.js CI](https://github.com/AdmiralCloud/ac-ping-connector/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-ping-connector/actions/workflows/node.js.yml) [![CodeQL](https://github.com/AdmiralCloud/ac-ping-connector/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/AdmiralCloud/ac-ping-connector/actions/workflows/github-code-scanning/codeql)
+
 # Breaking change version 1
 The function still behaves the same way in terms of functionality: it starts a server and logs an error if one occurs. 
 
