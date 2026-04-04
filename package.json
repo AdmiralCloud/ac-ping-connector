@@ -8,10 +8,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "ac-semantic-release": "^0.4.10",
+    "ac-semantic-release": "^1.0.1",
     "c8": "11.0.0",
     "chai": "^4.5.0",
-    "eslint": "10.1.0",
+    "eslint": "10.2.0",
     "mocha": "^11.7.5"
   },
   "scripts": {
