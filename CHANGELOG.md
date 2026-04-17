@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/admiralcloud/ac-ping-connector/compare/v1.0.9..v1.0.10) (2026-04-17 07:52:46)
+
+
+### Bug Fix
+
+
+* **App:** Package updates | MP | [e8df0ad77e4b621c96c479aa49a9cc3cf3147e4f](https://github.com/admiralcloud/ac-ping-connector/commit/e8df0ad77e4b621c96c479aa49a9cc3cf3147e4f)    
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 ## [1.0.9](https://github.com/admiralcloud/ac-ping-connector/compare/v1.0.8..v1.0.9) (2026-04-04 09:06:21)
 
 
