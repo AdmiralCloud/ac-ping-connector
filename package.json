@@ -8,11 +8,11 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "ac-semantic-release": "^1.0.2",
+    "ac-semantic-release": "^1.0.5",
     "c8": "11.0.0",
     "chai": "^4.5.0",
-    "eslint": "10.2.0",
-    "mocha": "^11.7.5"
+    "eslint": "10.13.0",
+    "mocha": "^11.8.0"
   },
   "scripts": {
     "test": "mocha --reporter spec --bail --exit --slow 1000 ./test.js || :",
